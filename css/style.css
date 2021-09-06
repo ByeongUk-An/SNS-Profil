@@ -3,3 +3,42 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #f7f9fc;
+}
+
+.white-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 2px 1px #eee;
+}
+
+.bob {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+.produce {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.produce p,
+.produce h2 {
+  margin: 0;
+}
+
+.area {
+  display: flex;
+  align-items: center;
+  color: #6fbaf8;
+}
+.area p {
+  margin: 0;
+}
