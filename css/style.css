@@ -14,6 +14,10 @@ body {
   border-radius: 5px;
   box-shadow: 0.5px 0.5px 2px 1px #eee;
 }
+.wrapper {
+  border-bottom: 1px solid #ebebeb;
+  margin-top: 70px;
+}
 
 .bob {
   width: 180px;
@@ -27,6 +31,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  border-right: 1px solid #ebebeb;
 }
 
 .produce p,
@@ -47,4 +52,112 @@ body {
 
 .area i {
   margin-right: 5px;
+}
+
+.border-bottom {
+}
+
+.profile {
+  text-align: center;
+  padding: 15px;
+  color: #6fbaf8;
+  border-bottom: 2px solid #6fbaf8;
+}
+
+.profile2 {
+  border-bottom: 2px solid #ebebeb;
+}
+
+.footer-bottom {
+  height: 600px;
+  margin-top: 30px;
+}
+
+.footer-bottom .works {
+  height: 400px;
+}
+
+.about {
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 40px;
+}
+.Skills {
+  padding-top: 30px;
+  padding-bottom: 120px;
+}
+
+span.hashtag {
+  display: inline-block;
+  border: 1px solid lightgray;
+  border-radius: 100px;
+  padding: 3px 12px 5px 12px;
+  margin-right: 2px;
+  margin-bottom: 5px;
+}
+
+.sign {
+  height: 400px;
+  text-align: center;
+}
+
+.icon-wrapper {
+  text-align: center;
+}
+
+.burn {
+  font-size: 70px;
+  color: #6fbaf8;
+}
+.addres {
+  margin: 20px 0;
+}
+.sign-btn {
+  background-color: #6fbaf8;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.member {
+  color: #6fbaf8;
+}
+
+.people {
+  height: 300px;
+}
+
+.people .people-bottom {
+  border-bottom: 1px solid #ebebeb;
+  font-weight: 300;
+  padding: 20px;
+}
+.people .color-gambler {
+  text-align: center;
+  color: gray;
+  margin-bottom: 0;
+}
+
+.peoples {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.people1 {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.people1 h5 {
+  margin-bottom: 0;
+}
+
+.peoples img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.imoji {
+  color: #6fbaf8;
 }
